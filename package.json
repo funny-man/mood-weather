@@ -1,0 +1,18 @@
+{
+  "name": "mood-weather",
+  "version": "2.1.1",
+  "description": "一个获取天气的命令行工具",
+  "main": "index.js",
+  "bin": {
+    "mood": "./index.js"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "zeeliu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "node-pinyin": "^0.2.3"
+  }
+}
